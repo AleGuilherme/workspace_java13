@@ -5,21 +5,29 @@ public class EmpregadoTeste {
 		
 		Empregado e1, e2, e3;
 		
-		e1 = new Empregado();
-		e2 = new Empregado();
-		e3 = new Empregado();
+		e1 = new Empregado("Professor Isidro", "Professor   ", 22875.00);
+		e2 = new Empregado("Judite          ", "Coordenadora", 18234.00);
+		e3 = new Empregado("Jurandir        ", "Inspetor    ", 11981.32);
 		
-		e1.setNome("Professor Isidro");
-		e1.setCargo("Professor   ");
-		e1.setSalario(22875.00);
+		// para efeito de testes:
+		e1.imprimir();
+		e2.imprimir();
+		e3.imprimir();
+				
 		
-		e2.setNome("Claudete        ");
-		e2.setCargo("Coordenadora");
-		e2.setSalario(18234.00);
+		// antes de preencher
 		
-		e3.setNome("Jurandir        ");
-		e3.setCargo("Inspetor    ");
-		e3.setSalario(11981.32);
+//		e1.setNome("Professor Isidro");
+//		e1.setCargo("Professor   ");
+//		e1.setSalario(22875.00);
+//		
+//		e2.setNome("Claudete        ");
+//		e2.setCargo("Coordenadora");
+//		e2.setSalario(18234.00);
+//		
+//		e3.setNome("Jurandir        ");
+//		e3.setCargo("Inspetor    ");
+//		e3.setSalario(11981.32);
 		
 		e1.imprimir();
 		e2.imprimir();
