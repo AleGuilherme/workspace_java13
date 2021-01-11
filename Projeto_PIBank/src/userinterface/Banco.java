@@ -5,18 +5,18 @@ import core.ContaEspecial;
 
 public class Banco {
 	public static void main(String []args) {
-		Conta c = new Conta();
-		ContaEspecial e = new ContaEspecial();
+		Conta c = new Conta("Cliente Normal","123.456.789-00",100001);
+		ContaEspecial e = new ContaEspecial("Cliente Especial","987.654.321-00",200002,500.00);
 		
-		c.setNomeTitular("Cliente normal");
-		c.setNumeroConta(100001);
-		c.setCpf("123.456.789-00");
-		
-		e.setNomeTitular("Cliente especial");
-		e.setCpf("987.654.321-00");
-		e.setNumeroConta(200002);
-		e.setLimite(500.00);
-		
+//		c.setNomeTitular("Cliente normal");
+//		c.setNumeroConta(100001);
+//		c.setCpf("123.456.789-00");
+//		
+//		e.setNomeTitular("Cliente especial");
+//		e.setCpf("987.654.321-00");
+//		e.setNumeroConta(200002);
+//		e.setLimite(500.00);
+//		
 		
 		// tudo conta normal
 		System.out.println("--------> Conta normal <---------");

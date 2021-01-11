@@ -1,10 +1,18 @@
 package core;
 
-public class Conta {
+public class Conta extends Object {
 	protected String nomeTitular;
 	protected String cpf;
 	protected int    numeroConta;
 	protected double saldo;
+    
+	public Conta(String nomeTitular, String cpf, int numeroConta) {
+		super();
+		this.nomeTitular = nomeTitular;
+		this.cpf = cpf;
+		this.numeroConta = numeroConta;
+		this.saldo = 0;
+	}
 	
 	// metodo de exibicao
 	public String exibirInfo() {
